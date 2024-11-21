@@ -30,4 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
+        export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE/testing/credentials_testing/src  # Add the path to PYTHONPATH
+        export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE/testing/prime_testing/src  # Add the path to PYTHONPATH
+        export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE/testing/unit_testing_best_practice/src  # Add the path to PYTHONPATH
         pytest
