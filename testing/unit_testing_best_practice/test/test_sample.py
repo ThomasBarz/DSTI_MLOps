@@ -1,6 +1,6 @@
 import sys
 # Always run from unit_testing_best_practice/test
-sys.path += ['C:/Users/thoma/Documents/DSTI/MLOps/DSTI_MLOps/testing/unit_testing_best_practice\src'] 
+sys.path += ['C:/Users/thoma/Documents/DSTI/MLOps/DSTI_MLOps/testing/unit_testing_best_practice/src'] 
 
 from sample import *
 
