@@ -2,7 +2,7 @@ import sys
 # Always run from unit_testing_best_practice/test
 sys.path += ['C:/Users/thoma/Documents/DSTI/MLOps/DSTI_MLOps/testing/unit_testing_best_practice/src'] 
 
-from best_practice_samplesample import *
+from best_practice_sample import *
 
 def test_answer():
     assert func(4) == 5
